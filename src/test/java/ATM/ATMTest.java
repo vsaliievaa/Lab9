@@ -18,9 +18,9 @@ class ATMTest {
         ATM atm = new ATM();
         int amount = 215;
         atm.handle(amount);
-        String result = "Please receive 1 of 5 UAH bills.\r\n" +
-                "Please receive 1 of 10 UAH bills.\r\n" +
-                "Please receive 10 of 20 UAH bills.\r\n";
+        String result = "Please receive 1 of 5 UAH bills.\n" +
+                "Please receive 1 of 10 UAH bills.\n" +
+                "Please receive 10 of 20 UAH bills.\n";
         assertEquals(result, outputStream.toString());
     }
 
