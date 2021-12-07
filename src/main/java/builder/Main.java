@@ -7,6 +7,8 @@ public class Main {
                 .firstName("Alice")
                 .lastName("Webster")
                 .occupation("analyst")
+                .weight(50)
+                .gender("f")
                 .build();
         System.out.println(user);
     }

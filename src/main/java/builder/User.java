@@ -3,7 +3,6 @@ import lombok.Builder;
 import lombok.Singular;
 import lombok.ToString;
 
-import java.util.Date;
 import java.util.List;
 
 @ToString @Builder
@@ -15,5 +14,4 @@ public class User {
     private String gender;
     private int age;
     private int weight;
-    private Date birthDate;
 }
